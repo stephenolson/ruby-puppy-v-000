@@ -8,8 +8,8 @@ class Dog
   end  
   
   def self.all
-    @@all.each |puppy|
-    
+    @@all.each do |puppy|
+    puppy.name
   end
   
 end
